@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1c1917;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    color: #e5e5e5;
+}
+
+.name {
+    text-align: center;
+    color: #e5e5e5;
+    text-shadow: 2px 3px 8px #60a5fa;
+    font-size: 55px;
+    padding-bottom: 40px;
+    font-family: Noto;
+
+    padding-top: 10px;
+}
+
+.main_heading {
+    color: inherit;
+}
+
+.main_heading:hover {
+    text-decoration: none;
+}
+
+.box {
+    font-size: 25px;
+    text-align: center;
+    font-family: Noto;
+    text-shadow: 1px 1px rgb(128, 127, 127);
+}
+
+.hlavnifoto {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.tilly {
+    border-radius: 100px;
+    margin-left: 70px;
+}
+
+.menu {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid rgb(48, 45, 45);
+    border-bottom: 1px solid rgb(48, 45, 45);
+}
+
+.img-hlavni-foto {
+    width: 650px;
+}
+
+.button_main_name {
+    cursor: pointer;
+}
+
+.menu-title {
+    color: #e5e5e5;
+    text-shadow: 2px 3px 8px #60a5fa;
+    cursor: pointer;
+}
+
+.menu-title:hover {
+    color: #404040;
+    font-weight: bold;
+    transform: scale(110%) rotate(-2deg);
+    background-image: linear-gradient(
+        135deg,
+        #eff6ff,
+        #dbeafe,
+        #bfdbfe,
+        #93c5fd
+    );
+    transition: 0.2s;
+}
+
+.single_menu-title:hover {
+    text-decoration: none;
+}
+
+.photos {
+    text-align: center;
+}
+
+.photo1 {
+    overflow: hidden;
+}
+
+.photo1 img {
+    margin: 15px;
+}
+
+.photo1 img:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
+}
+
+.contact-form {
+    height: 35px;
+    background-color: #c9c9ca;
+}
+
+.send-button {
+    margin: 0 50px;
+    width: 70px;
+    border-top: 3px solid #94a3b8;
+    border-right: 3px solid #475569;
+    border-bottom: 3px solid #475569;
+    border-left: 3px solid #6b7280;
+}
+
+.email-adress {
+    margin: 20px 0;
+    font-size: 28px;
+    text-decoration: underline #285996 4px;
+}
+
+.email-header {
+    font-size: 20px;
+}
+
+.send-message {
+    margin: 40px 0 20px;
+    font-size: 20px;
+}
+
+video {
+    display: block;
+    margin: 0px auto;
+}
+
+.about-me {
+    text-align: center;
+    margin: 0 100px;
+}
+
+.hidden {
+    display: none;
+}
